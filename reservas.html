@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Reservas — DiscoERP</title>
+    <meta name="description" content="Gestión de reservas en el ERP de la discoteca." />
+    <meta name="theme-color" content="#14b8a6" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body data-page="reservas">
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+    <header class="site-header" role="banner">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="Inicio DiscoERP">
+          <svg class="brand-mark" width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <circle cx="12" cy="12" r="10" fill="#14b8a6" />
+            <circle cx="12" cy="12" r="4" fill="#ffffff" />
+          </svg>
+          <span class="brand-text">DiscoERP</span>
+        </a>
+        <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">
+          <span class="sr-only">Abrir menú</span>
+          <span class="hamburger" aria-hidden="true"></span>
+        </button>
+        <nav id="site-nav" class="site-nav" aria-label="Menú principal">
+          <ul>
+            <li><a href="index.html" data-page="resumen">Resumen</a></li>
+            <li><a href="inventario.html" data-page="inventario">Inventario</a></li>
+            <li><a href="personal.html" data-page="personal">Personal</a></li>
+            <li><a href="reservas.html" data-page="reservas">Reservas</a></li>
+            <li><a href="ventas.html" data-page="ventas">Ventas</a></li>
+            <li><a href="reportes.html" data-page="reportes">Reportes</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="contenido" class="container" role="main">
+      <section aria-labelledby="reservas-title" class="section">
+        <div class="section-header">
+          <h1 id="reservas-title">Reservas</h1>
+          <form class="inline-form" action="#" method="get">
+            <label for="filtro-fecha">Fecha</label>
+            <input id="filtro-fecha" type="date" />
+            <button class="btn btn-primary" type="submit">Filtrar</button>
+          </form>
+        </div>
+
+        <div class="cards">
+          <article class="card">
+            <h3>esperando recibir datos</h3>
+            <p>esperando recibir datos</p>
+            <div class="card-actions">
+              <a href="#" class="btn btn-small">Confirmar</a>
+              <a href="#" class="btn btn-small btn-outline">Editar</a>
+            </div>
+          </article>
+          <article class="card">
+            <h3>esperando recibir datos</h3>
+            <p>esperando recibir datos</p>
+            <div class="card-actions">
+              <a href="#" class="btn btn-small">Confirmar</a>
+              <a href="#" class="btn btn-small btn-outline">Editar</a>
+            </div>
+          </article>
+          <article class="card">
+            <h3>esperando recibir datos</h3>
+            <p>esperando recibir datos</p>
+            <div class="card-actions">
+              <a href="#" class="btn btn-small">Confirmar</a>
+              <a href="#" class="btn btn-small btn-outline">Editar</a>
+            </div>
+          </article>
+        </div>
+
+        <div class="section-actions" style="margin-top:16px">
+          <a class="btn" href="#">Agregar reserva</a>
+          <a class="btn btn-outline" href="#">Exportar</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" role="contentinfo">
+      <div class="container footer-inner">
+        <p>© 2025 DiscoERP</p>
+        <nav aria-label="Enlaces legales">
+          <ul>
+            <li><a href="#">Privacidad</a></li>
+            <li><a href="#">Términos</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+
+    <script defer src="js/main.js"></script>
+  </body>
+  </html>
+
+

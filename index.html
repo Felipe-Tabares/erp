@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>DiscoERP — Panel de Gestión para Discoteca</title>
+    <meta
+      name="description"
+      content="ERP de gestión para discoteca: inventario, personal, reservas, ventas y reportes en una interfaz clara y accesible."
+    />
+    <meta name="theme-color" content="#14b8a6" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body data-page="resumen">
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+    <header class="site-header" role="banner">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="Inicio DiscoERP">
+          <svg
+            class="brand-mark"
+            width="28"
+            height="28"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+          >
+            <circle cx="12" cy="12" r="10" fill="#14b8a6" />
+            <circle cx="12" cy="12" r="4" fill="#ffffff" />
+          </svg>
+          <span class="brand-text">DiscoERP</span>
+        </a>
+
+        <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">
+          <span class="sr-only">Abrir menú</span>
+          <span class="hamburger" aria-hidden="true"></span>
+        </button>
+
+        <nav id="site-nav" class="site-nav" aria-label="Menú principal">
+          <ul>
+            <li><a href="index.html" data-page="resumen" aria-current="page">Resumen</a></li>
+            <li><a href="inventario.html" data-page="inventario">Inventario</a></li>
+            <li><a href="personal.html" data-page="personal">Personal</a></li>
+            <li><a href="reservas.html" data-page="reservas">Reservas</a></li>
+            <li><a href="ventas.html" data-page="ventas">Ventas</a></li>
+            <li><a href="reportes.html" data-page="reportes">Reportes</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="contenido" class="container" role="main">
+      <section id="resumen" aria-labelledby="resumen-title" class="section">
+        <h1 id="resumen-title">Panel de control</h1>
+        <p class="lead">Resumen abreviado del ERP. Todo muestra “esperando recibir datos”.</p>
+
+        <div class="kpi-grid">
+          <article class="kpi-card" aria-label="Stock bajo">
+            <h2 class="kpi-title">Stock bajo</h2>
+            <p class="kpi-value">esperando recibir datos</p>
+            <p class="kpi-desc">esperando recibir datos</p>
+          </article>
+          <article class="kpi-card" aria-label="Eventos esta semana">
+            <h2 class="kpi-title">Eventos</h2>
+            <p class="kpi-value">esperando recibir datos</p>
+            <p class="kpi-desc">esperando recibir datos</p>
+          </article>
+          <article class="kpi-card" aria-label="Personal en turno">
+            <h2 class="kpi-title">En turno</h2>
+            <p class="kpi-value">esperando recibir datos</p>
+            <p class="kpi-desc">esperando recibir datos</p>
+          </article>
+          <article class="kpi-card" aria-label="Ventas hoy">
+            <h2 class="kpi-title">Ventas hoy</h2>
+            <p class="kpi-value">esperando recibir datos</p>
+            <p class="kpi-desc">esperando recibir datos</p>
+          </article>
+        </div>
+
+        <div class="cards" style="margin-top:16px">
+          <article class="card">
+            <h3>Inventario</h3>
+            <p>esperando recibir datos</p>
+            <a class="btn btn-small" href="inventario.html">Ver inventario</a>
+          </article>
+          <article class="card">
+            <h3>Personal</h3>
+            <p>esperando recibir datos</p>
+            <a class="btn btn-small" href="personal.html">Ver personal</a>
+          </article>
+          <article class="card">
+            <h3>Reservas</h3>
+            <p>esperando recibir datos</p>
+            <a class="btn btn-small" href="reservas.html">Ver reservas</a>
+          </article>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="site-footer" role="contentinfo">
+      <div class="container footer-inner">
+        <p>© 2025 DiscoERP</p>
+        <nav aria-label="Enlaces legales">
+          <ul>
+            <li><a href="#">Privacidad</a></li>
+            <li><a href="#">Términos</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+
+    <script defer src="js/main.js"></script>
+  </body>
+  </html>
+
+
